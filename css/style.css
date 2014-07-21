@@ -247,3 +247,11 @@ img.img-center {
 .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #999;
 }
+.mobile-hide {
+    visibility: none;
+    display: none;
+  }
+@media (max-width: 480px) {
+  .mobile-hide a{
+    display: none;
+  }
