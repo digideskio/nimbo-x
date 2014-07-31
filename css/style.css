@@ -128,6 +128,19 @@ textarea {
 	text-align: left;
 	color: #6f7d95;
 }
+.gracias{
+  padding-top: 80px;
+  padding-bottom: 120px; 
+  text-align: center;
+}
+.gracias h2{
+  text-align: center;
+  font-weight: bold;
+}
+.gracias img{
+  padding-bottom: 20px;
+}
+
 h1{
 	font-size: 35px;
   line-height: 42px;
