@@ -84,11 +84,13 @@ textarea {
 .text-blue{
 	color: #1fcdd1;
 }
+
 .nav{
 	padding-top: 30px;
 	padding-bottom: 10px;
 	background: #20cdd1;
 }
+
 .header{
 	background: #20cdd1;
 	padding-top: 60px;
@@ -117,6 +119,17 @@ textarea {
 	background: #d9e3eb;
 	padding-top: 40px;
 	padding-bottom: 80px;
+}
+.social{
+  background: #1fcdd1;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.social h3{
+  letter-spacing: 3px;
+}
+.social a {
+  padding-right: 15px;
 }
 .footer{
 	background: #344051;
@@ -172,7 +185,8 @@ li a {
   font-size: 13px;
   color: white;
   font-weight: bold;
-  padding-right: 50px;
+  padding-right: 30px;
+
 }
 li a:hover {
   color: #29323a;
