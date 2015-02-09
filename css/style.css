@@ -105,6 +105,7 @@ textarea {
 
 
 .back-gray{
+  padding-top: 70px;
   background: #f5fafd;
 }
 .nav{
@@ -160,9 +161,12 @@ textarea {
   border-top: 3px solid #1fcdd1;
 }
 .contacto{
-	background: #d9e3eb;
+	background: #f5fafd;
 	padding-top: 40px;
 	padding-bottom: 80px;
+}
+.contacto hr{
+  margin-top: 10px;
 }
 .social{
   background: #1fcdd1;
@@ -208,14 +212,16 @@ h2{
 	font-size: 24px;
   color: #284a5b; 
   font-weight: 300;
+  line-height: 30px;
 }
 h3{
-	font-size: 22px;
-	line-height: 22px;
+	font-size: 20px;
   color: #284a5b; 
+  line-height: 26px;
 }
 h4{
 	font-size: 18px;
+  line-height: 25px;
 	padding-bottom: 20px;
   color: #284a5b;
 }
@@ -223,11 +229,16 @@ p{
 	color: #284a5b;
   font-size: 15px;
 }
+hr{
+  width: 300px;
+  margin-top: 35px;
+}
+
 li a {
   font-size: 12px;
   color: #284a5b;
   font-weight: bold;
-  padding-right: 50px;
+  padding-right: 30px;
 
 }
 li a:hover {
@@ -291,9 +302,26 @@ img.img-center {
   color: #20cdd1;
   font-weight: bold;
   text-decoration: none;
+
 }
 .btn-default:hover {
   background-color: #20cdd1;
+  border-color: transparent;
+  color: #fff;
+}
+.btn-primary {
+  background-color: transparent;
+  border-color: #284a5b;
+  border-width: 2px;
+  border-radius: 17px;
+  padding: 4px 12px 4px 12px;
+  font-size: 12px;
+  color: #284a5b;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background-color: #284a5b;
   border-color: transparent;
   color: #fff;
 }
@@ -323,4 +351,9 @@ img.img-center {
    .modulos1 img{
     width: 100%
    } 
+   .header{
+    background: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
   }
