@@ -109,8 +109,8 @@ textarea {
   background: #f5fafd;
 }
 .nav{
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	background: #fff;
   -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
   -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
@@ -180,7 +180,7 @@ textarea {
   padding-right: 15px;
 }
 .footer{
-	background: #344051;
+	background: #284a5b;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
@@ -188,6 +188,10 @@ textarea {
 	font-size: 12px;
 	text-align: left;
 	color: #6f7d95;
+}
+.footer a{
+  color: #fff;
+  font-size:12px;
 }
 .gracias{
   padding-top: 80px;
@@ -206,7 +210,6 @@ h1{
 	font-size: 38px;
   line-height: 48px;
   color: #284a5b;
-  font-weight: 300;
 }
 h2{
 	font-size: 24px;
@@ -235,7 +238,8 @@ hr{
 }
 
 li a {
-  font-size: 12px;
+  font-size: 13px;
+  letter-spacing: 1px;
   color: #284a5b;
   font-weight: bold;
   padding-right: 30px;
@@ -257,12 +261,13 @@ img.img-center {
   background-color: #284a5b;
   border-color: #284a5b;
   color: #fff;
-  border-radius: 17px;
-  padding: 6px 12px 6px 12px;
+  border-radius: 22px;
+  padding: 8px 35px 8px 35px;
   border-width: 2px;
-  font-size: 12px;
+  letter-spacing: 1px;
+  font-size: 14px;
   font-weight: bold;
-  width: 150px;
+  width: 220px;
   margin-top: 30px;
 }
 .btn-success:hover {
@@ -297,8 +302,8 @@ img.img-center {
   border-color: #20cdd1;
   border-width: 2px;
   border-radius: 17px;
-  padding: 4px 12px 4px 12px;
-  font-size: 12px;
+  padding: 6px 15px 6px 15px;
+  font-size: 13px;
   color: #20cdd1;
   font-weight: bold;
   text-decoration: none;
@@ -314,8 +319,8 @@ img.img-center {
   border-color: #284a5b;
   border-width: 2px;
   border-radius: 17px;
-  padding: 4px 12px 4px 12px;
-  font-size: 12px;
+  padding: 6px 15px 6px 15px;
+  font-size: 13px;
   color: #284a5b;
   font-weight: bold;
   text-decoration: none;
